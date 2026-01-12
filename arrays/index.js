@@ -64,4 +64,26 @@ const nestedArray = [1,2,3,4, [1,2,3,4,[1,2,3,4]] ]
      
      
      
-     
+   //  slice v/s splice
+  const months = ["Jan", "March", "April", "June"];
+
+//   splice = 2 chize => remove , add
+   //  const deletedArray = months.splice(0,2)
+   //  console.log(deletedArray);
+   //  months.splice(0,1,"feb");
+   //  console.log(months);
+    
+
+
+   const slicedArray = months.slice(0,3)
+   console.log(slicedArray);
+   console.log(months);
+   
+   
+    
+
+    
+  
+
+  
+
